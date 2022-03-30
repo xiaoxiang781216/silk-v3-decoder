@@ -108,6 +108,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #endif
 #endif
 
+#ifndef EMBEDDED_ARM
+#define EMBEDDED_ARM 0
+#endif
+
 #ifdef _WINRT
 #define L(a)	a
 #define LR(a,d)	%##d##a
